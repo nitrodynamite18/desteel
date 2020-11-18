@@ -23,9 +23,9 @@
   "block.diamondenriched_steel.diamond_enriched_steel_ore_block": "Block of Diamond-Enriched Steel",
   "item.diamondenriched_steel.diamond_enriched_steel_axe": "Diamond-Enriched Steel Axe",
   "item.diamondenriched_steel.steel_nugget": "Steel Nugget",
-  "advancements.cover_me_with_steel.descr": "Equip a full set of Steel armor.",
+  "advancements.cover_me_with_steel.descr": "Equip a full set of Steel armour.",
   "item.diamondenriched_steel.steel_armor_leggings": "Steel Leggings",
-  "item.diamondenriched_steel.diamond_enriched_steel_gem": "Diamond-Enriched Steel Ingot",
-  "item.diamondenriched_steel.steel_ingot": "Steel Ingot",
+  "item.diamondenriched_steel.diamond_enriched_steel_gem": "Diamond-Enriched Steel",
+  "item.diamondenriched_steel.steel_ingot": "Steel",
   "item.diamondenriched_steel.diamond_enriched_steel_armor_helmet": "Diamond-Enriched Steel Helmet"
 }

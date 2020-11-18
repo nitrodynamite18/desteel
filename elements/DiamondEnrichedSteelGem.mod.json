@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "diamondenrichedsteel_gem",
     "customModelName": "Normal",
-    "name": "Diamond-Enriched Steel",
+    "name": "Diamond-Enriched Steel Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -15,6 +15,9 @@
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

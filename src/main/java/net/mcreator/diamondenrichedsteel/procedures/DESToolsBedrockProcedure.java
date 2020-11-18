@@ -57,10 +57,10 @@ public class DESToolsBedrockProcedure extends DiamondenrichedSteelModElements.Mo
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(DiamondEnrichedSteelPickaxeItem.block, (int) (1)))
-				: false)) {
-			if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.BEDROCK.getDefaultState().getBlock())) {
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.BEDROCK.getDefaultState().getBlock())) {
+			if (((entity instanceof PlayerEntity)
+					? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(DiamondEnrichedSteelPickaxeItem.block, (int) (1)))
+					: false)) {
 				world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 				if (!world.getWorld().isRemote) {
 					ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(Blocks.BEDROCK, (int) (1)));
