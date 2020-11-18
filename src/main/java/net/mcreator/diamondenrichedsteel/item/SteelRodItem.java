@@ -2,8 +2,6 @@
 package net.mcreator.diamondenrichedsteel.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
@@ -44,12 +42,6 @@ public class SteelRodItem extends DiamondenrichedSteelModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		@OnlyIn(Dist.CLIENT)
-		public boolean hasEffect(ItemStack itemstack) {
-			return true;
 		}
 	}
 }
