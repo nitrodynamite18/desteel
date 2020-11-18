@@ -1,0 +1,24 @@
+{
+  "group": "d_e_shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_shovel",
+    "count": 1
+  }
+}

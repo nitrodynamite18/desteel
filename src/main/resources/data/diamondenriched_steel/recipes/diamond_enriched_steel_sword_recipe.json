@@ -1,0 +1,24 @@
+{
+  "group": "d_e_sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "1": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_sword",
+    "count": 1
+  }
+}

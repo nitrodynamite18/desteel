@@ -1,0 +1,42 @@
+{
+  "group": "diamond_enriched_steel_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:steel_ingot"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "diamondenriched_steel:steel_ingot"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "diamondenriched_steel:steel_ingot"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "diamondenriched_steel:steel_ingot"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "diamondenriched_steel:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_gem",
+    "count": 1
+  }
+}

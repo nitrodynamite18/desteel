@@ -1,0 +1,13 @@
+{
+  "group": "diamond_enriched_steel_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diamondenriched_steel:diamond_enriched_steel_ore_block"
+    }
+  ],
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_gem",
+    "count": 9
+  }
+}

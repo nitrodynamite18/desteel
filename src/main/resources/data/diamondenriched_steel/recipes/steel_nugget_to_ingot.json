@@ -1,0 +1,37 @@
+{
+  "group": "steel_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    },
+    {
+      "item": "diamondenriched_steel:steel_nugget"
+    }
+  ],
+  "result": {
+    "item": "diamondenriched_steel:steel_ingot",
+    "count": 1
+  }
+}

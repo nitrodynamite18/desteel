@@ -1,0 +1,39 @@
+{
+  "group": "d_e_chest",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "2": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "3": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "4": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "5": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "6": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "7": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "8": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_armor_chestplate",
+    "count": 1
+  }
+}

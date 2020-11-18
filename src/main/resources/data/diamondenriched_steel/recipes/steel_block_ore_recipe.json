@@ -1,0 +1,13 @@
+{
+  "group": "steel_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "diamondenriched_steel:steel_ore_block"
+    }
+  ],
+  "result": {
+    "item": "diamondenriched_steel:steel_ingot",
+    "count": 9
+  }
+}

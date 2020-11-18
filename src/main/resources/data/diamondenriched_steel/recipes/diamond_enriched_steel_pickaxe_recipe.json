@@ -1,0 +1,30 @@
+{
+  "group": "d_e_pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "1": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "2": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 32.0,
+    "cookingTime": 1200,
+    "recipeRetstackSize": 1,
+    "group": "steel_nugget",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SteelNugget"
+    },
+    "name": "iron_to_steel",
+    "namespace": "mod"
+  }
+}

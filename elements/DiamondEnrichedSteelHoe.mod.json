@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamondenrichedsteel_hoe",
+    "customModelName": "Normal",
+    "name": "Diamond-Enriched Steel Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 10,
+    "efficiency": 16.0,
+    "attackSpeed": 2.0,
+    "enchantability": 70,
+    "damageVsEntity": 11.0,
+    "usageCount": 3264,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DiamondEnrichedSteelGem"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

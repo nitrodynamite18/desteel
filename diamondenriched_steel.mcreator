@@ -1,0 +1,535 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ingot"
+    },
+    {
+      "name": "SteelOreBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore_block"
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_ore_block_recipe"
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_block_ore_recipe"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel"
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_pickaxe_recipe"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_axe_recipe"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_sword_recipe"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_shovel_recipe"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_hoe_recipe"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_helmet_recipe"
+    },
+    {
+      "name": "SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_body_recipe"
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_leggings_recipe"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_armor_boots_recipe"
+    },
+    {
+      "name": "IrontoSteel",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironto_steel"
+    },
+    {
+      "name": "DiamondEnrichedSteelGem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_gem"
+    },
+    {
+      "name": "DiamondEnrichedSteelOreBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_ore_block"
+    },
+    {
+      "name": "DiamondEnrichedSteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_ore_block_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_block_ore_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_pickaxe"
+    },
+    {
+      "name": "DiamondEnrichedSteelAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_axe"
+    },
+    {
+      "name": "DiamondEnrichedSteelSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_sword"
+    },
+    {
+      "name": "DiamondEnrichedSteelShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_shovel"
+    },
+    {
+      "name": "DiamondEnrichedSteelHoe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_hoe"
+    },
+    {
+      "name": "DiamondEnrichedSteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_pickaxe_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_axe_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_sword_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_shovel_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_hoe_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DiamondEnrichedSteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_armor_helmet_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_armor_body_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_armor_leggings_recipe"
+    },
+    {
+      "name": "DiamondEnrichedSteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel_armor_boots_recipe"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nugget"
+    },
+    {
+      "name": "DiamondEnrichedSteel",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_enriched_steel"
+    },
+    {
+      "name": "SteelNuggettoIngot",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_nuggetto_ingot"
+    },
+    {
+      "name": "DESToolsBedrock",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "des_tools_bedrock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoverSteel",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cover_steel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AndrewCarnegie",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andrew_carnegie"
+    },
+    {
+      "name": "WannabeIndustrialist",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wannabe_industrialist"
+    },
+    {
+      "name": "CoverMeWithSteel",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cover_me_with_steel"
+    },
+    {
+      "name": "NitrosFace",
+      "type": "painting",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitros_face"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.diamondenriched_steel.diamond_enriched_steel_armor_chestplate": "Diamond-Enriched Steel Chestplate",
+      "item.diamondenriched_steel.steel_armor_helmet": "Steel Helmet",
+      "item.diamondenriched_steel.steel_pickaxe": "Steel Pickaxe",
+      "item.diamondenriched_steel.steel_armor_chestplate": "Steel Chestplate",
+      "item.diamondenriched_steel.steel_sword": "Steel Sword",
+      "item.diamondenriched_steel.steel_hoe": "Steel Hoe",
+      "advancements.wannabe_industrialist.descr": "Obtain your first Steel Nugget.",
+      "advancements.andrew_carnegie.title": "Andrew Carnegie II",
+      "item.diamondenriched_steel.diamond_enriched_steel_armor_boots": "Diamond-Enriched Steel Boots",
+      "item.diamondenriched_steel.diamond_enriched_steel_pickaxe": "Diamond-Enriched Steel Pickaxe",
+      "item.diamondenriched_steel.diamond_enriched_steel_hoe": "Diamond-Enriched Steel Hoe",
+      "item.diamondenriched_steel.diamond_enriched_steel_sword": "Diamond-Enriched Steel Sword",
+      "item.diamondenriched_steel.steel_axe": "Steel Axe",
+      "block.diamondenriched_steel.steel_ore_block": "Block of Steel",
+      "item.diamondenriched_steel.diamond_enriched_steel_armor_leggings": "Diamond-Enriched Steel Leggings",
+      "advancements.wannabe_industrialist.title": "Wannabe Industrialist",
+      "item.diamondenriched_steel.steel_shovel": "Steel Shovel",
+      "item.diamondenriched_steel.steel_armor_boots": "Steel Boots",
+      "item.diamondenriched_steel.diamond_enriched_steel_shovel": "Diamond-Enriched Steel Shovel",
+      "advancements.andrew_carnegie.descr": "Have 64 Blocks of Steel.",
+      "advancements.cover_me_with_steel.title": "Cover Me With Steel",
+      "block.diamondenriched_steel.diamond_enriched_steel_ore_block": "Block of Diamond-Enriched Steel",
+      "item.diamondenriched_steel.diamond_enriched_steel_axe": "Diamond-Enriched Steel Axe",
+      "item.diamondenriched_steel.steel_nugget": "Steel Nugget",
+      "advancements.cover_me_with_steel.descr": "Equip a full set of Steel armor.",
+      "item.diamondenriched_steel.steel_armor_leggings": "Steel Leggings",
+      "item.diamondenriched_steel.diamond_enriched_steel_gem": "Diamond-Enriched Steel",
+      "item.diamondenriched_steel.steel_ingot": "Steel",
+      "item.diamondenriched_steel.diamond_enriched_steel_armor_helmet": "Diamond-Enriched Steel Helmet"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "diamondenriched_steel",
+    "modName": "Diamond-Enriched Steel",
+    "version": "1.0.0",
+    "description": "This pack adds two new materials: Steel and Diamond-Enriched Steel.",
+    "author": "nitro_dynamite18",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.diamondenrichedsteel",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000546519
+}

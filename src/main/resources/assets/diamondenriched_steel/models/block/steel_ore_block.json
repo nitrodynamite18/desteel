@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diamondenriched_steel:blocks/steel_ore_block",
+    "particle": "diamondenriched_steel:blocks/steel_ore_block"
+  }
+}
