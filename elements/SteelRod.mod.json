@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "diamondenrichedsteel_gem",
+    "texture": "steelrod",
     "customModelName": "Normal",
-    "name": "Diamond-Enriched Steel Ingot",
-    "rarity": "RARE",
+    "name": "Steel Rod",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },
@@ -18,13 +18,13 @@
     "recipeRemainder": {
       "value": ""
     },
-    "destroyAnyBlock": true,
+    "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64

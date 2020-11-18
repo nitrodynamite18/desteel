@@ -2,6 +2,8 @@
 package net.mcreator.diamondenrichedsteel.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
@@ -12,11 +14,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.diamondenrichedsteel.DiamondenrichedSteelModElements;
 
 @DiamondenrichedSteelModElements.ModElement.Tag
-public class DiamondEnrichedSteelGemItem extends DiamondenrichedSteelModElements.ModElement {
-	@ObjectHolder("diamondenriched_steel:diamond_enriched_steel_gem")
+public class SteelRodItem extends DiamondenrichedSteelModElements.ModElement {
+	@ObjectHolder("diamondenriched_steel:steel_rod")
 	public static final Item block = null;
-	public DiamondEnrichedSteelGemItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 23);
+	public SteelRodItem(DiamondenrichedSteelModElements instance) {
+		super(instance, 54);
 	}
 
 	@Override
@@ -25,8 +27,8 @@ public class DiamondEnrichedSteelGemItem extends DiamondenrichedSteelModElements
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("diamond_enriched_steel_gem");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("steel_rod");
 		}
 
 		@Override
@@ -45,7 +47,8 @@ public class DiamondEnrichedSteelGemItem extends DiamondenrichedSteelModElements
 		}
 
 		@Override
-		public boolean canHarvestBlock(BlockState state) {
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
 			return true;
 		}
 	}
