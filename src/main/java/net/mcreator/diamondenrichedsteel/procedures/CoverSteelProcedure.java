@@ -35,15 +35,14 @@ public class CoverSteelProcedure extends DiamondenrichedSteelModElements.ModElem
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY)
-				.getItem() == new ItemStack(SteelArmorItem.boots, (int) (1)).getItem())
-				&& (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY)
+		if ((((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3) : ItemStack.EMPTY)
+				.getItem() == new ItemStack(SteelArmorItem.helmet, (int) (1)).getItem())
+				&& (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY)
 						.getItem() == new ItemStack(SteelArmorItem.body, (int) (1)).getItem()))
-				&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 2) : ItemStack.EMPTY)
+				&& ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 1) : ItemStack.EMPTY)
 						.getItem() == new ItemStack(SteelArmorItem.legs, (int) (1)).getItem())
-						&& (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3) : ItemStack.EMPTY)
-								.getItem() == new ItemStack(SteelArmorItem.helmet, (int) (1)).getItem())))
-				&& (entity instanceof PlayerEntity))) {
+						&& (((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 0) : ItemStack.EMPTY)
+								.getItem() == new ItemStack(SteelArmorItem.boots, (int) (1)).getItem())))) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
 						.getAdvancement(new ResourceLocation("diamondenriched_steel:cover_me_with_steel"));

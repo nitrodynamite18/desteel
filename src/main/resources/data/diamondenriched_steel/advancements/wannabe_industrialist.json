@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "diamondenriched_steel:steel_nugget"
     },
@@ -38,5 +37,6 @@
       "diamondenriched_steel:steel_block_ore_recipe",
       "diamondenriched_steel:steel_nugget_to_ingot"
     ]
-  }
+  },
+  "parent": "minecraft:story/smelt_iron"
 }

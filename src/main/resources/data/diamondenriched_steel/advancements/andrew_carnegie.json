@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "diamondenriched_steel:steel_ore_block"
     },
@@ -38,5 +37,6 @@
       "diamondenriched_steel:diamond_enriched_steel_block_ore_recipe",
       "diamondenriched_steel:diamond_enriched_steel"
     ]
-  }
+  },
+  "parent": "diamondenriched_steel:cover_me_with_steel"
 }
