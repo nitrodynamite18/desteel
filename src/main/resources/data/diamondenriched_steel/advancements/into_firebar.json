@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "diamondenriched_steel:steel_rod"
+    },
+    "title": {
+      "translate": "advancements.into_firebar.title"
+    },
+    "description": {
+      "translate": "advancements.into_firebar.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "into_firebar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diamondenriched_steel:steel_rod",
+            "count": {
+              "min": 1,
+              "max": 256
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 48,
+    "recipes": [
+      "diamondenriched_steel:diamond_enriched_steel_pickaxe_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_axe_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_sword_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_shovel_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_hoe_recipe"
+    ]
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod"
+}
