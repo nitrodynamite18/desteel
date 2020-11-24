@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Into Firebar",
-    "achievementDescription": "Craft your first Steel Rods",
+    "achievementDescription": "Craft your first Steel Rods.",
     "achievementIcon": {
       "value": "CUSTOM:SteelRod"
     },

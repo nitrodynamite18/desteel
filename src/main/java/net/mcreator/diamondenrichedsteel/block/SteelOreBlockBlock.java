@@ -26,7 +26,7 @@ public class SteelOreBlockBlock extends DiamondenrichedSteelModElements.ModEleme
 	@ObjectHolder("diamondenriched_steel:steel_ore_block")
 	public static final Block block = null;
 	public SteelOreBlockBlock(DiamondenrichedSteelModElements instance) {
-		super(instance, 3);
+		super(instance, 5);
 	}
 
 	@Override

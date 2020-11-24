@@ -16,7 +16,7 @@ public class SteelNuggetItem extends DiamondenrichedSteelModElements.ModElement 
 	@ObjectHolder("diamondenriched_steel:steel_nugget")
 	public static final Item block = null;
 	public SteelNuggetItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 44);
+		super(instance, 1);
 	}
 
 	@Override

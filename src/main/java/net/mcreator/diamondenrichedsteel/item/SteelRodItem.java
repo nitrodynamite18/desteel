@@ -16,7 +16,7 @@ public class SteelRodItem extends DiamondenrichedSteelModElements.ModElement {
 	@ObjectHolder("diamondenriched_steel:steel_rod")
 	public static final Item block = null;
 	public SteelRodItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 54);
+		super(instance, 3);
 	}
 
 	@Override

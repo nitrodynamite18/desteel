@@ -17,7 +17,7 @@ public class SteelSwordItem extends DiamondenrichedSteelModElements.ModElement {
 	@ObjectHolder("diamondenriched_steel:steel_sword")
 	public static final Item block = null;
 	public SteelSwordItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 9);
+		super(instance, 15);
 	}
 
 	@Override

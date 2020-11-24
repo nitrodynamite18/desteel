@@ -17,7 +17,7 @@ public class DiamondEnrichedSteelShovelItem extends DiamondenrichedSteelModEleme
 	@ObjectHolder("diamondenriched_steel:diamond_enriched_steel_shovel")
 	public static final Item block = null;
 	public DiamondEnrichedSteelShovelItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 32);
+		super(instance, 13);
 	}
 
 	@Override

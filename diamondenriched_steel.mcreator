@@ -4,7 +4,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "SteelOreBlock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "SteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "SteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "SteelSword",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "SteelShovel",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "SteelHoe",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "SteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "SteelAxeRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "SteelSwordRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "SteelShovelRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "SteelHoeRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -145,7 +145,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "SteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -163,7 +163,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -172,7 +172,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -181,7 +181,7 @@
     {
       "name": "IrontoSteel",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -190,7 +190,7 @@
     {
       "name": "DiamondEnrichedSteelGem",
       "type": "item",
-      "sortid": 23,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -199,7 +199,7 @@
     {
       "name": "DiamondEnrichedSteelOreBlock",
       "type": "block",
-      "sortid": 25,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +208,7 @@
     {
       "name": "DiamondEnrichedSteelOreBlockRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -217,7 +217,7 @@
     {
       "name": "DiamondEnrichedSteelBlockOreRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,7 +226,7 @@
     {
       "name": "DiamondEnrichedSteelPickaxe",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "DiamondEnrichedSteelAxe",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "DiamondEnrichedSteelSword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +253,7 @@
     {
       "name": "DiamondEnrichedSteelShovel",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +262,7 @@
     {
       "name": "DiamondEnrichedSteelHoe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,7 +271,7 @@
     {
       "name": "DiamondEnrichedSteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -280,7 +280,7 @@
     {
       "name": "DiamondEnrichedSteelAxeRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +289,7 @@
     {
       "name": "DiamondEnrichedSteelSwordRecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +298,7 @@
     {
       "name": "DiamondEnrichedSteelShovelRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,7 +307,7 @@
     {
       "name": "DiamondEnrichedSteelHoeRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -316,7 +316,7 @@
     {
       "name": "DiamondEnrichedSteelArmor",
       "type": "armor",
-      "sortid": 39,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -331,7 +331,7 @@
     {
       "name": "DiamondEnrichedSteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -340,7 +340,7 @@
     {
       "name": "DiamondEnrichedSteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -349,7 +349,7 @@
     {
       "name": "DiamondEnrichedSteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -358,7 +358,7 @@
     {
       "name": "DiamondEnrichedSteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -367,7 +367,7 @@
     {
       "name": "SteelNugget",
       "type": "item",
-      "sortid": 44,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -376,7 +376,7 @@
     {
       "name": "DiamondEnrichedSteel",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -385,20 +385,109 @@
     {
       "name": "SteelNuggettoIngot",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "steel_nuggetto_ingot"
     },
     {
-      "name": "DESToolsBedrock",
+      "name": "CoverSteel",
       "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cover_steel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AndrewCarnegie",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "andrew_carnegie"
+    },
+    {
+      "name": "WannabeIndustrialist",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wannabe_industrialist"
+    },
+    {
+      "name": "CoverMeWithSteel",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cover_me_with_steel"
+    },
+    {
+      "name": "NitrosFace",
+      "type": "painting",
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "des_tools_bedrock",
+      "registry_name": "nitros_face"
+    },
+    {
+      "name": "SteelRod",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_rod"
+    },
+    {
+      "name": "SteelRodRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_rod_recipe"
+    },
+    {
+      "name": "IntoFirebar",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "into_firebar"
+    },
+    {
+      "name": "SteelRodRecipe2",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steel_rod_recipe_2"
+    },
+    {
+      "name": "BreakBedrock",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "break_bedrock",
       "metadata": {
         "dependencies": [
           {
@@ -423,92 +512,12 @@
           }
         ]
       }
-    },
-    {
-      "name": "CoverSteel",
-      "type": "procedure",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cover_steel",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AndrewCarnegie",
-      "type": "achievement",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "andrew_carnegie"
-    },
-    {
-      "name": "WannabeIndustrialist",
-      "type": "achievement",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wannabe_industrialist"
-    },
-    {
-      "name": "CoverMeWithSteel",
-      "type": "achievement",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cover_me_with_steel"
-    },
-    {
-      "name": "NitrosFace",
-      "type": "painting",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nitros_face"
-    },
-    {
-      "name": "SteelRod",
-      "type": "item",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steel_rod"
-    },
-    {
-      "name": "SteelRodRecipe",
-      "type": "recipe",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steel_rod_recipe"
-    },
-    {
-      "name": "IntoFirebar",
-      "type": "achievement",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "into_firebar"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "fr_fr": {
+    "en_us": {
       "item.diamondenriched_steel.diamond_enriched_steel_armor_chestplate": "Diamond-Enriched Steel Chestplate",
       "item.diamondenriched_steel.steel_armor_helmet": "Steel Helmet",
       "item.diamondenriched_steel.steel_pickaxe": "Steel Pickaxe",
@@ -528,7 +537,7 @@
       "advancements.wannabe_industrialist.title": "Wannabe Industrialist",
       "item.diamondenriched_steel.steel_shovel": "Steel Shovel",
       "item.diamondenriched_steel.steel_armor_boots": "Steel Boots",
-      "advancements.into_firebar.descr": "Craft your first Steel Rods",
+      "advancements.into_firebar.descr": "Craft your first Steel Rods.",
       "item.diamondenriched_steel.diamond_enriched_steel_shovel": "Diamond-Enriched Steel Shovel",
       "advancements.andrew_carnegie.descr": "Have 64 Blocks of Steel.",
       "advancements.cover_me_with_steel.title": "Cover Me With Steel",
@@ -542,7 +551,7 @@
       "item.diamondenriched_steel.steel_ingot": "Steel Ingot",
       "item.diamondenriched_steel.diamond_enriched_steel_armor_helmet": "Diamond-Enriched Steel Helmet"
     },
-    "en_us": {
+    "fr_fr": {
       "item.diamondenriched_steel.diamond_enriched_steel_armor_chestplate": "Diamond-Enriched Steel Chestplate",
       "item.diamondenriched_steel.steel_armor_helmet": "Steel Helmet",
       "item.diamondenriched_steel.steel_pickaxe": "Steel Pickaxe",
@@ -595,5 +604,5 @@
     "modElementsPackage": "net.mcreator.diamondenrichedsteel",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000546519
+  "mcreatorVersion": 202000547520
 }

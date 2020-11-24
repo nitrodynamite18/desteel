@@ -16,7 +16,7 @@ public class DiamondEnrichedSteelGemItem extends DiamondenrichedSteelModElements
 	@ObjectHolder("diamondenriched_steel:diamond_enriched_steel_gem")
 	public static final Item block = null;
 	public DiamondEnrichedSteelGemItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 23);
+		super(instance, 4);
 	}
 
 	@Override

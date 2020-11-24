@@ -25,6 +25,12 @@
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BreakBedrock"
+    },
+    "onEntitySwing": {
+      "name": "BreakBedrock"
+    }
   }
 }
