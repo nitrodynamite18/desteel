@@ -25,6 +25,11 @@ public class BreakBedrockProcedure extends DiamondenrichedSteelModElements.ModEl
 				System.err.println("Failed to load dependency entity for procedure BreakBedrock!");
 			return;
 		}
+		if (dependencies.get("itemstack") == null) {
+			if (!dependencies.containsKey("itemstack"))
+				System.err.println("Failed to load dependency itemstack for procedure BreakBedrock!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
 				System.err.println("Failed to load dependency x for procedure BreakBedrock!");
@@ -46,6 +51,7 @@ public class BreakBedrockProcedure extends DiamondenrichedSteelModElements.ModEl
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
@@ -63,6 +69,7 @@ public class BreakBedrockProcedure extends DiamondenrichedSteelModElements.ModEl
 				entityToSpawn.setNoDespawn();
 				world.addEntity(entityToSpawn);
 			}
+			(new ItemStack(DiamondEnrichedSteelPickaxeItem.block, (int) (1))).setDamage((int) ((((itemstack)).getDamage()) + 1));
 		}
 	}
 }
