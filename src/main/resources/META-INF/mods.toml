@@ -6,10 +6,11 @@ modId="diamondenriched_steel"
 version="1.0.0"
 displayName="Diamond-Enriched Steel"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
+displayURL="https://www.planetminecraft.com/member/nitro_dynamite18/"
+logoFile="logo.png"
 authors="nitro_dynamite18"
 description='''
-This pack adds two new materials: Steel and Diamond-Enriched Steel.
+This pack adds two new materials: Steel and Diamond-Enriched Steel. This is my first real attempt at making a mod, so just a disclaimer: I'm not a professional mod developer.
 '''
 
 [[dependencies.diamondenriched_steel]]
@@ -19,6 +20,12 @@ This pack adds two new materials: Steel and Diamond-Enriched Steel.
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.diamondenriched_steel]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31.2.0]"
+    ordering="NONE"
+    side="BOTH"
 
 
 

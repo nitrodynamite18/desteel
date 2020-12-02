@@ -28,7 +28,7 @@ public class DiamondEnrichedSteelHoeItem extends DiamondenrichedSteelModElements
 			}
 
 			public float getEfficiency() {
-				return 16f;
+				return 32f;
 			}
 
 			public float getAttackDamage() {
@@ -46,7 +46,21 @@ public class DiamondEnrichedSteelHoeItem extends DiamondenrichedSteelModElements
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(DiamondEnrichedSteelGemItem.block, (int) (1)));
 			}
-		}, -2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -0.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				ItemStack retval = new ItemStack(this);
+				retval.setDamage(itemstack.getDamage() + 1);
+				if (retval.getDamage() >= retval.getMaxDamage()) {
+					return ItemStack.EMPTY;
+				}
+				return retval;
+			}
 		}.setRegistryName("diamond_enriched_steel_hoe"));
 	}
 }

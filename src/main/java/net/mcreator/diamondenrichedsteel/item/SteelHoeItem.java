@@ -46,7 +46,7 @@ public class SteelHoeItem extends DiamondenrichedSteelModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SteelIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -2.4f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("steel_hoe"));
 	}
 }

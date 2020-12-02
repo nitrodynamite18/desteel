@@ -46,7 +46,7 @@ public class SteelPickaxeItem extends DiamondenrichedSteelModElements.ModElement
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SteelIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.4000000000000001f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("steel_pickaxe"));
 	}
 }

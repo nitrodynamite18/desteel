@@ -28,7 +28,7 @@ public class DiamondEnrichedSteelSwordItem extends DiamondenrichedSteelModElemen
 			}
 
 			public float getEfficiency() {
-				return 16f;
+				return 32f;
 			}
 
 			public float getAttackDamage() {
@@ -46,7 +46,21 @@ public class DiamondEnrichedSteelSwordItem extends DiamondenrichedSteelModElemen
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(DiamondEnrichedSteelGemItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, 0f, new Item.Properties().group(ItemGroup.COMBAT)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				ItemStack retval = new ItemStack(this);
+				retval.setDamage(itemstack.getDamage() + 1);
+				if (retval.getDamage() >= retval.getMaxDamage()) {
+					return ItemStack.EMPTY;
+				}
+				return retval;
+			}
 		}.setRegistryName("diamond_enriched_steel_sword"));
 	}
 }

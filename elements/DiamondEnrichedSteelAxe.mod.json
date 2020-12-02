@@ -13,7 +13,7 @@
     "toolType": "Axe",
     "harvestLevel": 10,
     "efficiency": 16.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 3.2,
     "enchantability": 70,
     "damageVsEntity": 16.0,
     "usageCount": 3264,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:DiamondEnrichedSteelGem"
       }
     ],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

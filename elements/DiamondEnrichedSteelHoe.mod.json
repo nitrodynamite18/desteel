@@ -12,8 +12,8 @@
     },
     "toolType": "Hoe",
     "harvestLevel": 10,
-    "efficiency": 16.0,
-    "attackSpeed": 2.0,
+    "efficiency": 32.0,
+    "attackSpeed": 3.2,
     "enchantability": 70,
     "damageVsEntity": 11.0,
     "usageCount": 3264,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:DiamondEnrichedSteelGem"
       }
     ],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }
