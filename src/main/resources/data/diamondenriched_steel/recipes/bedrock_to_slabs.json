@@ -1,0 +1,9 @@
+{
+  "group": "bedrock_slabs",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:bedrock"
+  },
+  "result": "diamondenriched_steel:bedrock_slab"
+}

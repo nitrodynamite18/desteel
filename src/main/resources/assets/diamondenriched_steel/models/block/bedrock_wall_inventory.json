@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "diamondenriched_steel:blocks/bedrock",
+    "particle": "diamondenriched_steel:blocks/bedrock"
+  }
+}

@@ -23,7 +23,7 @@
             "item": "diamondenriched_steel:steel_nugget",
             "count": {
               "min": 1,
-              "max": 64
+              "max": 2147483647
             }
           }
         ]
@@ -33,9 +33,15 @@
   "rewards": {
     "experience": 16,
     "recipes": [
-      "diamondenriched_steel:steel_ore_block_recipe",
+      "diamondenriched_steel:steel_nugget_to_ingot",
+      "diamondenriched_steel:steel_rod_recipe",
+      "diamondenriched_steel:steel_rod_recipe_2",
+      "diamondenriched_steel:steel_bucket",
       "diamondenriched_steel:steel_block_ore_recipe",
-      "diamondenriched_steel:steel_nugget_to_ingot"
+      "diamondenriched_steel:steel_ore_block_recipe",
+      "diamondenriched_steel:diamond_enriched_steel",
+      "diamondenriched_steel:diamond_enriched_steel_blocks",
+      "diamondenriched_steel:steel_ingot_to_nugget"
     ]
   },
   "parent": "minecraft:story/smelt_iron"

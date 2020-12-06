@@ -1,0 +1,40 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SteelPickaxe"
+      },
+      {
+        "value": "CUSTOM:SteelAxe"
+      },
+      {
+        "value": "CUSTOM:SteelSword"
+      },
+      {
+        "value": "CUSTOM:SteelShovel"
+      },
+      {
+        "value": "CUSTOM:SteelHoe"
+      },
+      {
+        "value": "CUSTOM:SteelArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:SteelArmor.body"
+      },
+      {
+        "value": "CUSTOM:SteelArmor.legs"
+      },
+      {
+        "value": "CUSTOM:SteelArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "steel_gear",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Who has that much free time?",
+    "achievementDescription": "Craft 64 Blocks of Diamond-Enriched Steel, then go outside.",
+    "achievementIcon": {
+      "value": "CUSTOM:DiamondEnrichedSteelOreBlock"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 4096,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:DiamondSteelArmor"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"38\" y=\"86\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2147483647</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:DiamondEnrichedSteelOreBlock</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

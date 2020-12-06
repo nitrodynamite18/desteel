@@ -1,0 +1,22 @@
+{
+  "group": "bedrock_slabs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "1": {
+      "item": "minecraft:bedrock"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:bedrock_slab",
+    "count": 6
+  }
+}

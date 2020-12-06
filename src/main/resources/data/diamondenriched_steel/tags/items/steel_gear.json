@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "diamondenriched_steel:steel_pickaxe",
+    "diamondenriched_steel:steel_axe",
+    "diamondenriched_steel:steel_sword",
+    "diamondenriched_steel:steel_shovel",
+    "diamondenriched_steel:steel_hoe",
+    "diamondenriched_steel:steel_armor_helmet",
+    "diamondenriched_steel:steel_armor_chestplate",
+    "diamondenriched_steel:steel_armor_leggings",
+    "diamondenriched_steel:steel_armor_boots"
+  ]
+}

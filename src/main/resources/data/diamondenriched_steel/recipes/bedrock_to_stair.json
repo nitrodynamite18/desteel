@@ -1,0 +1,33 @@
+{
+  "group": "bedrock_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "minecraft:bedrock"
+    },
+    "4": {
+      "item": "minecraft:bedrock"
+    },
+    "6": {
+      "item": "minecraft:bedrock"
+    },
+    "7": {
+      "item": "minecraft:bedrock"
+    },
+    "8": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:bedrock_stair",
+    "count": 8
+  }
+}

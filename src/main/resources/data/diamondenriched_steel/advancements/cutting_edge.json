@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_gem"
+    },
+    "title": {
+      "translate": "advancements.cutting_edge.title"
+    },
+    "description": {
+      "translate": "advancements.cutting_edge.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cutting_edge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diamondenriched_steel:diamond_enriched_steel_gem",
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2048,
+    "recipes": [
+      "diamondenriched_steel:diamond_enriched_steel_ore_block_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_block_ore_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_pickaxe_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_axe_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_sword_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_shovel_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_hoe_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_armor_helmet_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_armor_body_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_armor_leggings_recipe",
+      "diamondenriched_steel:diamond_enriched_steel_armor_boots_recipe"
+    ]
+  },
+  "parent": "diamondenriched_steel:andrew_carnegie"
+}

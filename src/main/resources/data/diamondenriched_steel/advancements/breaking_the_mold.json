@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancements.breaking_the_mold.title"
+    },
+    "description": {
+      "translate": "advancements.breaking_the_mold.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "breaking_the_mold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bedrock",
+            "count": {
+              "min": 1,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 51200,
+    "recipes": [
+      "diamondenriched_steel:bedrock_to_stairs",
+      "diamondenriched_steel:bedrock_to_slabs",
+      "diamondenriched_steel:bedrock_to_walls",
+      "diamondenriched_steel:bedrock_slabs",
+      "diamondenriched_steel:bedrock_to_slab",
+      "diamondenriched_steel:bedrock_stairs",
+      "diamondenriched_steel:bedrock_to_stair",
+      "diamondenriched_steel:bedrock_walls"
+    ]
+  },
+  "parent": "diamondenriched_steel:dia_steel_blocks"
+}

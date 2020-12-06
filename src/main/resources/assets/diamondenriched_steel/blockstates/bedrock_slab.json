@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "diamondenriched_steel:block/bedrock_slab"
+    },
+    "type=top": {
+      "model": "diamondenriched_steel:block/bedrock_slab_top"
+    },
+    "type=double": {
+      "model": "diamondenriched_steel:block/bedrock_slab_full"
+    }
+  }
+}

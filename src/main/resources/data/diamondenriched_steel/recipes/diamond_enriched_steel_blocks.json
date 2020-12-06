@@ -1,0 +1,42 @@
+{
+  "group": "d_e_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diamondenriched_steel:steel_ore_block"
+    },
+    "1": {
+      "item": "minecraft:diamond_block"
+    },
+    "2": {
+      "item": "diamondenriched_steel:steel_ore_block"
+    },
+    "3": {
+      "item": "minecraft:diamond_block"
+    },
+    "4": {
+      "item": "diamondenriched_steel:steel_ore_block"
+    },
+    "5": {
+      "item": "minecraft:diamond_block"
+    },
+    "6": {
+      "item": "diamondenriched_steel:steel_ore_block"
+    },
+    "7": {
+      "item": "minecraft:diamond_block"
+    },
+    "8": {
+      "item": "diamondenriched_steel:steel_ore_block"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:diamond_enriched_steel_ore_block",
+    "count": 5
+  }
+}

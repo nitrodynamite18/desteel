@@ -1,0 +1,32 @@
+{
+  "group": "bedrock_walls",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "1": {
+      "item": "minecraft:bedrock"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "minecraft:bedrock"
+    },
+    "4": {
+      "item": "minecraft:bedrock"
+    },
+    "5": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "diamondenriched_steel:bedrock_wall",
+    "count": 6
+  }
+}

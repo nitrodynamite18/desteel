@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_ore_block"
+    },
+    "title": {
+      "translate": "advancements.dia_steel_blocks.title"
+    },
+    "description": {
+      "translate": "advancements.dia_steel_blocks.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dia_steel_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diamondenriched_steel:diamond_enriched_steel_ore_block",
+            "count": {
+              "min": 64,
+              "max": 2147483647
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4096
+  },
+  "parent": "diamondenriched_steel:diamond_steel_armor"
+}

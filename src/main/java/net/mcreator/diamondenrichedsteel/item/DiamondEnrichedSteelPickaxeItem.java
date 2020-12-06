@@ -39,7 +39,7 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 			}
 
 			public float getEfficiency() {
-				return 32f;
+				return 16f;
 			}
 
 			public float getAttackDamage() {

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "diamondenriched_steel:diamond_enriched_steel_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.diamond_steel_armor.title"
+    },
+    "description": {
+      "translate": "advancements.diamond_steel_armor.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_steel_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 256
+  },
+  "parent": "diamondenriched_steel:cutting_edge"
+}

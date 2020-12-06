@@ -1,0 +1,9 @@
+{
+  "group": "bedrock_walls",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:bedrock"
+  },
+  "result": "diamondenriched_steel:bedrock_wall"
+}

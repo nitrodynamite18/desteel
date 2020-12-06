@@ -1,0 +1,12 @@
+{
+  "group": "steel_ingot",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "steel_gear"
+  },
+  "result": {
+    "item": "diamondenriched_steel:steel_nugget"
+  }
+}

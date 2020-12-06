@@ -23,7 +23,7 @@
             "item": "diamondenriched_steel:steel_ore_block",
             "count": {
               "min": 64,
-              "max": 64
+              "max": 2147483647
             }
           }
         ]
