@@ -28,7 +28,7 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 	@ObjectHolder("diamondenriched_steel:diamond_enriched_steel_pickaxe")
 	public static final Item block = null;
 	public DiamondEnrichedSteelPickaxeItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 			}
 
 			public float getEfficiency() {
-				return 16f;
+				return 32f;
 			}
 
 			public float getAttackDamage() {
@@ -47,7 +47,7 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 			}
 
 			public int getHarvestLevel() {
-				return -1;
+				return 10;
 			}
 
 			public int getEnchantability() {

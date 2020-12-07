@@ -228,7 +228,7 @@
       "type": "tool",
       "sortid": 13,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "diamond_enriched_steel_pickaxe"
     },
