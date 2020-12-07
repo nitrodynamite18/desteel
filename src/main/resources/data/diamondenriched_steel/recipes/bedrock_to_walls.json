@@ -1,7 +1,7 @@
 {
   "group": "bedrock_walls",
   "type": "minecraft:stonecutting",
-  "count": 4,
+  "count": 1,
   "ingredient": {
     "item": "minecraft:bedrock"
   },

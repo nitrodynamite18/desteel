@@ -24,7 +24,7 @@ import java.util.HashMap;
 @DiamondenrichedSteelModElements.ModElement.Tag
 public class CoverDiaSteelProcedure extends DiamondenrichedSteelModElements.ModElement {
 	public CoverDiaSteelProcedure(DiamondenrichedSteelModElements instance) {
-		super(instance, 70);
+		super(instance, 71);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -45,7 +45,7 @@ public class CoverDiaSteelProcedure extends DiamondenrichedSteelModElements.ModE
 								.getItem() == new ItemStack(DiamondEnrichedSteelArmorItem.boots, (int) (1)).getItem())))) {
 			if (entity instanceof ServerPlayerEntity) {
 				Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-						.getAdvancement(new ResourceLocation("diamondenriched_steel:diamond_steel_armor"));
+						.getAdvancement(new ResourceLocation("diamondenriched_steel:cover_me_with_diamond_enriched_steel"));
 				AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 				if (!_ap.isDone()) {
 					Iterator _iterator = _ap.getRemaningCriteria().iterator();

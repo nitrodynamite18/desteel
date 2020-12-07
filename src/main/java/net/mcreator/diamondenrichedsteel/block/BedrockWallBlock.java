@@ -40,14 +40,13 @@ public class BedrockWallBlock extends DiamondenrichedSteelModElements.ModElement
 	@ObjectHolder("diamondenriched_steel:bedrock_wall")
 	public static final Block block = null;
 	public BedrockWallBlock(DiamondenrichedSteelModElements instance) {
-		super(instance, 59);
+		super(instance, 21);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

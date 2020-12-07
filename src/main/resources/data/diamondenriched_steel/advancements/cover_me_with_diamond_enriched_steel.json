@@ -4,10 +4,10 @@
       "item": "diamondenriched_steel:diamond_enriched_steel_armor_chestplate"
     },
     "title": {
-      "translate": "advancements.diamond_steel_armor.title"
+      "translate": "advancements.cover_me_with_diamond_enriched_steel.title"
     },
     "description": {
-      "translate": "advancements.diamond_steel_armor.descr"
+      "translate": "advancements.cover_me_with_diamond_enriched_steel.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "diamond_steel_armor": {
+    "cover_me_with_diamond_enriched_steel": {
       "trigger": "minecraft:impossible"
     }
   },
