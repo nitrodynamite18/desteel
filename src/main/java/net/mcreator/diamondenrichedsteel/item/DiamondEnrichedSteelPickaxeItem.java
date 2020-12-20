@@ -57,7 +57,22 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(DiamondEnrichedSteelGemItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -0.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
+			@Override
+			public boolean hasContainerItem() {
+				return true;
+			}
+
+			@Override
+			public ItemStack getContainerItem(ItemStack itemstack) {
+				ItemStack retval = new ItemStack(this);
+				retval.setDamage(itemstack.getDamage() + 1);
+				if (retval.getDamage() >= retval.getMaxDamage()) {
+					return ItemStack.EMPTY;
+				}
+				return retval;
+			}
+
 			@Override
 			public ActionResultType onItemUse(ItemUseContext context) {
 				ActionResultType retval = super.onItemUse(context);
@@ -72,7 +87,6 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
@@ -92,7 +106,6 @@ public class DiamondEnrichedSteelPickaxeItem extends DiamondenrichedSteelModElem
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("itemstack", itemstack);
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "CUSTOM:BedrockSlab"
+      },
+      {
+        "value": "CUSTOM:BedrockStair"
+      },
+      {
+        "value": "CUSTOM:BedrockWall"
+      }
+    ],
+    "functions": [],
+    "name": "bedrock_blocks",
+    "namespace": "mod"
+  }
+}

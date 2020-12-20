@@ -495,10 +495,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -722,6 +718,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diagnosed_psychopath"
+    },
+    {
+      "name": "BedrockBlocks",
+      "type": "tag",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_blocks"
     }
   ],
   "variable_elements": [],

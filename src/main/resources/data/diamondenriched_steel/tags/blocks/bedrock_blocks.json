@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "diamondenriched_steel:bedrock_slab",
+    "diamondenriched_steel:bedrock_stair",
+    "diamondenriched_steel:bedrock_wall"
+  ]
+}
