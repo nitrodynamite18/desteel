@@ -17,7 +17,7 @@ public class SteelPickaxeItem extends DiamondenrichedSteelModElements.ModElement
 	@ObjectHolder("diamondenriched_steel:steel_pickaxe")
 	public static final Item block = null;
 	public SteelPickaxeItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 7);
+		super(instance, 9);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class BedrockSlabBlock extends DiamondenrichedSteelModElements.ModElement
 	@ObjectHolder("diamondenriched_steel:bedrock_slab")
 	public static final Block block = null;
 	public BedrockSlabBlock(DiamondenrichedSteelModElements instance) {
-		super(instance, 56);
+		super(instance, 7);
 	}
 
 	@Override

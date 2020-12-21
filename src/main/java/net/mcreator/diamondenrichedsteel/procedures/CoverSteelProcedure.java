@@ -24,7 +24,7 @@ import java.util.HashMap;
 @DiamondenrichedSteelModElements.ModElement.Tag
 public class CoverSteelProcedure extends DiamondenrichedSteelModElements.ModElement {
 	public CoverSteelProcedure(DiamondenrichedSteelModElements instance) {
-		super(instance, 44);
+		super(instance, 47);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

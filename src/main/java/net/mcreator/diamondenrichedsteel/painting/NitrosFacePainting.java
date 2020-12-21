@@ -12,7 +12,7 @@ import net.mcreator.diamondenrichedsteel.DiamondenrichedSteelModElements;
 @DiamondenrichedSteelModElements.ModElement.Tag
 public class NitrosFacePainting extends DiamondenrichedSteelModElements.ModElement {
 	public NitrosFacePainting(DiamondenrichedSteelModElements instance) {
-		super(instance, 48);
+		super(instance, 51);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

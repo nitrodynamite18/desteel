@@ -29,7 +29,7 @@ public class SteelArmorItem extends DiamondenrichedSteelModElements.ModElement {
 	@ObjectHolder("diamondenriched_steel:steel_armor_boots")
 	public static final Item boots = null;
 	public SteelArmorItem(DiamondenrichedSteelModElements instance) {
-		super(instance, 16);
+		super(instance, 18);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class BedrockStairBlock extends DiamondenrichedSteelModElements.ModElemen
 	@ObjectHolder("diamondenriched_steel:bedrock_stair")
 	public static final Block block = null;
 	public BedrockStairBlock(DiamondenrichedSteelModElements instance) {
-		super(instance, 58);
+		super(instance, 8);
 	}
 
 	@Override

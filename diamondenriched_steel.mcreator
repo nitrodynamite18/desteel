@@ -695,7 +695,7 @@
     {
       "name": "DiaSteelBlocks",
       "type": "achievement",
-      "sortid": 73,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -704,7 +704,7 @@
     {
       "name": "CoverMeWithDiamondEnrichedSteel",
       "type": "achievement",
-      "sortid": 75,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -713,7 +713,7 @@
     {
       "name": "DiagnosedPsychopath",
       "type": "achievement",
-      "sortid": 76,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -722,7 +722,7 @@
     {
       "name": "BedrockBlocks",
       "type": "tag",
-      "sortid": 77,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
