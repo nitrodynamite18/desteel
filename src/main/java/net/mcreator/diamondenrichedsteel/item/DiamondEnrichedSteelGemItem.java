@@ -25,7 +25,7 @@ public class DiamondEnrichedSteelGemItem extends DiamondenrichedSteelModElements
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.RARE));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("diamond_enriched_steel_gem");
 		}
 
